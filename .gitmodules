@@ -1,6 +1,3 @@
-[submodule "argo-install/argo-helm"]
-	path = argo-install/argo-helm
-	url = git@github.com:argoproj/argo-helm.git
 [submodule "argocd-install/argo-helm"]
 	path = argocd-install/argo-helm
 	url = git@github.com:argoproj/argo-helm.git
