@@ -4,7 +4,8 @@ Installation:
 
 ```bash
 cd argocd-install
-helm install argocd ./argo-cd \
+helm dep update ./argo-helm/charts/argo-cd/
+helm install argocd ./argo-helm/charts/argo-cd/ \
     --namespace=argocd \
     --create-namespace \
     -f values-override.yaml
